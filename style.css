@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: Inter;
+}
+
+h1 {
+  font-size: 1.75rem;
+  font-weight: 800;
+}
+
+h1,
+h3 {
+  margin-top: 0;
+}
+
+main {
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  color: white;
+}
+
+.container {
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+.hero {
+  background-color: #6943ff;
+  padding: 2rem;
+}
+
+.units-container {
+  background-color: #1f2937;
+  flex: 1;
+  color: inherit;
+  padding: 2.25em 1.56em;
+}
+
+.unit {
+  background-color: #273549;
+  border-radius: 5px;
+  max-width: m-content;
+  padding: 1.875em;
+  margin-top: 1.5em;
+}
+
+.unit-title {
+  color: #ccc1ff;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+#unit-input {
+  color: inherit;
+  background-color: transparent;
+  border: 2px solid #b295ff;
+  border-radius: 5px;
+  font-family: inherit;
+  font-weight: 800;
+  font-size: 3.625rem;
+  width: 2em;
+  text-align: inherit;
+}
+
+#convert-btn {
+  cursor: pointer;
+  display: block;
+  color: #3d3d3d;
+  background-color: white;
+  margin: 2.125em auto 0 auto;
+  padding: 0.625em 1.875em;
+  font-size: 1.125rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(1);
+}
